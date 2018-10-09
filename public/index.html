@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="img-src https://*.kaptcha.com; script-src 'unsafe-inline' https://*.kaptcha.com; child-src https://*.kaptcha.com" />
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' https://*.kaptcha.com; script-src 'self' 'unsafe-eval' http://10.240.209.54:8081/* https://*.kaptcha.com; child-src https://*.kaptcha.com" />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>kount-setup-with-vue</title>
   </head>
