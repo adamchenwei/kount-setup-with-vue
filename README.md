@@ -1,5 +1,7 @@
 # kount-setup-with-vue
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adamchenwei/kount-setup-with-vue.svg)](https://greenkeeper.io/)
+
 ## Project setup
 ```
 yarn install
